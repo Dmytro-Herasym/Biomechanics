@@ -21,4 +21,6 @@ const percentaCalculator = (number, total) => {
    return number * 100 / total;
 }
 const winterDone = percentaCalculator(2, 3);
-console.log(percentaCalculator(5,28));
+console.log(percentaCalculator(5, 28));
+
+// ----------------------------
