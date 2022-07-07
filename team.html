@@ -13,6 +13,8 @@
    <link rel="stylesheet" href="css/style.css" />
    <link rel="stylesheet" href="css/team.css" />
    <link rel="stylesheet" href="css/header.css" />
+   <link rel="stylesheet" href="css/blocks.css" />
+   <link rel="stylesheet" href="css/fonts.css" />
    <link
       href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
       rel="stylesheet" &display=swap />
@@ -27,26 +29,27 @@
    </style>
 </head>
 <!-- Отображаемое тело страницы -->
-
 <body>
    <div class="wrapper">
       <header class="header">
          <div class="container">
             <div class="header__row">
-               <div class="header__logo">
-                  <img src="./img/Logo.svg" alt="Logo">
-               </div>
+							<div class="header__logo">
+								<a class="header__logo-link" href="main-page.html">
+									<img src="./img/Logo.svg" alt="Logo">
+								</a>
+							</div>
                <div class="menu__icon">
                   <span></span>
                </div>
                <nav class="header__nav">
                   <ul class="nav__list">
-                     <li class="nav__item"><a href="index.html">ПРО НАС</a></li>
-                     <li class="nav__item"><a href="">ПОСЛУГИ</a></li>
-                     <li class="nav__item"><a href="">ЦІНИ</a></li>
-                     <li class="nav__item"><a href="">БЛОГ</a></li>
-                     <li class="nav__item"><a href="">КОМАНДА</a></li>
-                     <li class="nav__item"><a href="">КОНТАКТИ</a></li>
+                     <li class="nav__item"><a class="nav__item-link" href="aboutUs.html">ПРО НАС</a></li>
+                     <li class="nav__item"><a class="nav__item-link" href="services.html">ПОСЛУГИ</a></li>
+                     <li class="nav__item"><a class="nav__item-link" href="price.html">ЦІНИ</a></li>
+                     <li class="nav__item"><a class="nav__item-link" href="blog.html">БЛОГ</a></li>
+                     <li class="nav__item"><a class="nav__item-link" href="team.html">КОМАНДА</a></li>
+                     <li class="nav__item"><a class="nav__item-link" href="contacts.html">КОНТАКТИ</a></li>
                   </ul>
                </nav>
                <div class="header__info">
@@ -59,7 +62,7 @@
       <main class="main">
          <section class="team">
             <div class="container">
-               <div class="team__title title">КОМАНДА</div>
+               <h1 class="team__title title">КОМАНДА</h1>
                <div class="team__cards">
                   <div class="team__card">
                      <div class="team__card-img">
@@ -78,7 +81,7 @@
                               netus sed lectus fringilla pharetra, libero.
                            </div>
                         </div>
-                        <button class="card__button"><a class="card__button--link" href="./profile.html">ЗАПИСАТИСЯ НА ПРИЙОМ</a></button>
+                        <a class="card__button" href="./profile.html">ЗАПИСАТИСЯ НА ПРИЙОМ</a>
                      </div>
                   </div>
                   <div class="team__card">
@@ -98,7 +101,7 @@
                            lectus fringilla pharetra, libero.
                            </div>
                         </div>
-                        <button class="card__button"><a class="card__button--link" href="./profile.html">ЗАПИСАТИСЯ НА ПРИЙОМ</a></button>
+												<a class="card__button" href="./profile.html">ЗАПИСАТИСЯ НА ПРИЙОМ</a>
                      </div>
                   </div>
                   <div class="team__card">
@@ -120,7 +123,7 @@
                            - RED CORD - NEORAC 1
                            </div>
                         </div>
-                        <button class="card__button"><a class="card__button--link" href="./profile.html">ЗАПИСАТИСЯ НА ПРИЙОМ</a></button>
+												<a class="card__button" href="./profile.html">ЗАПИСАТИСЯ НА ПРИЙОМ</a>
                      </div>
                   </div>
                   <div class="team__card">
@@ -142,7 +145,7 @@
                            lectus fringilla pharetra, libero.
                            </div>
                         </div>
-                        <button class="card__button"><a class="card__button--link" href="./profile.html">ЗАПИСАТИСЯ НА ПРИЙОМ</a></button>
+												<a class="card__button" href="./profile.html">ЗАПИСАТИСЯ НА ПРИЙОМ</a>
                      </div>
                   </div>
                   <div class="team__card">
@@ -159,7 +162,7 @@
                            Має сертифікат з курсів масажу. Займається реабілітацією людей після інсульту та дитячого церебрального паралічу.
                            </div>
                         </div>
-                        <button class="card__button"><a class="card__button--link" href="./profile.html">ЗАПИСАТИСЯ НА ПРИЙОМ</a></button>
+												<a class="card__button" href="./profile.html">ЗАПИСАТИСЯ НА ПРИЙОМ</a>
                      </div>
                   </div>
                   <div class="team__card">
@@ -177,7 +180,7 @@
                            Займається фізичною реабілітацією, йоготерапією та кінезотерапією.
                            </div>
                         </div>
-                        <button class="card__button"><a class="card__button--link" href="./profile.html">ЗАПИСАТИСЯ НА ПРИЙОМ</a></button>
+												<a class="card__button" href="./profile.html">ЗАПИСАТИСЯ НА ПРИЙОМ</a>
                      </div>
                   </div>
                </div>
@@ -187,16 +190,16 @@
       <footer class="footer">
          <div class="container">
             <div class="footer__row">
-               <div class="logo__text">
-                  <img src="./img/Logo-text.svg" alt="">
-               </div>
+							<a class="logo__text" href="main-page.html">
+								<img src="./img/Logo-text.svg" alt="">
+							</a>
                <div class="footer__nav">
                   <nav class="nav__list">
                      <ul class="nav__items">
-                        <li class="nav__item"><a href="" class="list item">ПРО НАС</a></li>
-                        <li class="nav__item"><a href="" class="list item">ПОСЛУГИ</a></li>
-                        <li class="nav__item"><a href="" class="list item">БЛОГ</a></li>
-                        <li class="nav__item"><a href="" class="list item">КОМАНДА</a></li>
+                        <li class="nav__item nav__item-border"><a href="" class="list__item">ПРО НАС</a></li>
+                        <li class="nav__item nav__item-border"><a href="" class="list__item">ПОСЛУГИ</a></li>
+                        <li class="nav__item nav__item-border"><a href="" class="list__item">БЛОГ</a></li>
+                        <li class="nav__item nav__item-border"><a href="" class="list__item">КОМАНДА</a></li>
                      </ul>
                   </nav>
                </div>

@@ -1,0 +1,168 @@
+.main {
+  flex: 1 1 auto;
+}
+.article {
+  font-family: "Arame";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  letter-spacing: 0.135em;
+  text-align: center;
+}
+.title {
+  font-family: "Arame";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0.135em;
+  padding: 58px 0px 33px 0px;
+}
+.subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 75%;
+  letter-spacing: 0.135em;
+  color: #ebebeb;
+  text-transform: uppercase;
+}
+.text {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 125%;
+  max-width: 500px;
+}
+.text-us {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ebebeb;
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background: none;
+  color: #ebebeb;
+  border: 2px solid #fff;
+  padding: 20px 35px;
+}
+.number {
+  font-family: "Arame";
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 75%;
+  text-align: center;
+  color: #626262;
+}
+.way__first {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 120%;
+  color: #ffffff;
+}
+.way__name {
+  margin: 0px 0px 0px 30px;
+  color: #939393;
+  margin: 0px 0px 0px 30px;
+  text-transform: uppercase;
+}
+
+.button {
+  position: relative;
+  transition: all 0.35s;
+  z-index: 5;
+}
+.card__button {
+  background: none;
+  font-family: "Arame";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 75%;
+  letter-spacing: 0.135em;
+  color: #ebebeb;
+  justify-content: center;
+  padding: 37px 0;
+  border: 1px solid #626262;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  text-align: center;
+}
+/* --------animation------------ */
+.button:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #626262;
+  transition: all 0.35s;
+  opacity: 50%;
+}
+
+.button:hover {
+  color: #fff;
+}
+
+.button:hover:after {
+  width: 100%;
+}
+.card__button:hover {
+  background-color: #626262;
+  transition: all 0.3s ease;
+}
+.card__button:hover {
+  background-color: #626262;
+}
+.nav__item {
+  border-bottom: 1px solid #626262;
+  padding: 5px 0px 5px 0px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.nav__item:hover {
+  border-top: 1px solid #626262;
+  transform: scale(0.85);
+}
+.nav__item-border {
+}
+
+.top-name {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #626262;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.top-name:hover {
+  transition: 1s ease-in-out;
+  background: #4f95da;
+}
+
+.top-name {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.bottom-name__link {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #626262;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.bottom-name__link:hover {
+  transition: 1s ease-in-out;
+  background: #4f95da;
+}
+
+.bottom-name__link {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}

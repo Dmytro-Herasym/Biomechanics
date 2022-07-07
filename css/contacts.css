@@ -1,0 +1,53 @@
+.contacts {
+}
+.container {
+}
+.contacts__title {
+	margin: 0px 0px 30px 0px;
+}
+.title {
+}
+.contacts__content {
+  display: flex;
+}
+.contacts__column {
+  flex: 1 1 50%;
+}
+.city {
+  border-top: 1px solid #626262;
+	padding: 20px 0px 10px 0px;
+}
+.adress {
+	padding: 0px 0px 20px 0px;
+}
+.adress,
+.day,
+.phone, .media__social-border {
+  border-bottom: 1px solid #626262;
+}
+.week {
+	padding: 20px 0px 0px 0px;
+}
+.day {
+	padding: 10px 0px 25px 0px;
+}
+.phone {
+	padding: 20px 0px 19px 0px;
+}
+.phone-link {
+}
+.media__social {
+	padding: 20px 0px 18px 0px;
+}
+.social__inst {
+}
+.social__facebook {
+}
+.contacts__image {
+}
+.contacts-info {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 125%;
+  color: #ebebeb;
+}

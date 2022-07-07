@@ -11,6 +11,8 @@
 
 	<!-- Подключаем CSS -->
 	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/blocks.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
 	<link
 		href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
 		rel="stylesheet" &display=swap />
@@ -32,19 +34,21 @@
 			<div class="container">
 				<div class="header__row">
 					<div class="header__logo">
-						<img src="./img/Logo.svg" alt="Logo">
+						<a class="header__logo-link" href="main-page.html">
+							<img src="./img/Logo.svg" alt="Logo">
+						</a>
 					</div>
 					<div class="menu__icon">
 						<span></span>
 					</div>
 					<nav class="header__nav">
 						<ul class="nav__list">
-							<li class="nav__item"><a href="">ПРО НАС</a></li>
-							<li class="nav__item"><a href="">ПОСЛУГИ</a></li>
-							<li class="nav__item"><a href="">ЦІНИ</a></li>
-							<li class="nav__item"><a href="">БЛОГ</a></li>
+							<li class="nav__item"><a href="aboutUs.html">ПРО НАС</a></li>
+							<li class="nav__item"><a href="services.html">ПОСЛУГИ</a></li>
+							<li class="nav__item"><a href="price.html">ЦІНИ</a></li>
+							<li class="nav__item"><a href="blog.html">БЛОГ</a></li>
 							<li class="nav__item"><a href="team.html">КОМАНДА</a></li>
-							<li class="nav__item"><a href="">КОНТАКТИ</a></li>
+							<li class="nav__item"><a href="contacts.html">КОНТАКТИ</a></li>
 						</ul>
 					</nav>
 					<div class="header__info">
@@ -60,8 +64,7 @@
 					<div class="heroscreen__body">
 						<div class="heroscreen__content">
 							<div class="content__top">
-								<div class="content__title title">РЕАБІЛІТАЦІЙНИЙ ЦЕНТР ВІДНОВЛЕННЯ ОПОРНО-РУХОВОГО АПАРАТУ
-								</div>
+								<h1 class="content__title title">РЕАБІЛІТАЦІЙНИЙ ЦЕНТР ВІДНОВЛЕННЯ ОПОРНО-РУХОВОГО АПАРАТУ</h1>
 								<div class="heroscreen__text text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
 									cupiditate rerum unde est ratione placeat pariatur cumque laboriosam expedita animi
 									necessitatibus dignissimos facere, odit repellat laborum error ducimus quod aspernatur.</div>
@@ -206,9 +209,9 @@
 		<footer class="footer">
 			<div class="container">
 				<div class="footer__row">
-					<div class="logo__text">
+					<a class="logo__text" href="main-page.html">
 						<img src="./img/Logo-text.svg" alt="">
-					</div>
+					</a>
 					<div class="footer__nav">
 						<nav class="nav__list">
 							<ul class="nav__items">

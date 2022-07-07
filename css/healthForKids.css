@@ -1,0 +1,33 @@
+.about-us__text {
+  display: flex;
+  flex-direction: column;
+}
+.text-us {
+  flex: 1 1 auto;
+}
+.health__button {
+  display: inline-block;
+  align-items: flex-end;
+}
+.profile__way {
+  margin: 22px 0px 58px 0px;
+}
+.about-us__content {
+  border-top: 1px solid #626262;
+  border-bottom: 1px solid #626262;
+	padding: 25px 0px;
+}
+.services__row-bottom {
+	display: flex;
+	margin: 0px -15px;
+	
+}
+.row-bottom {
+	padding: 0 15px;
+}
+.review__subtitle {
+	border-top: none;
+}
+.review__subtitle-border-top {
+	border-top: 1px solid #626262;
+}
