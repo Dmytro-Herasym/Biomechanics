@@ -9,6 +9,7 @@
   margin: 0px 35px 0px 0px;
 }
 .us-image {
+  max-width: 100%;
 }
 
 .about-us__text {
@@ -28,7 +29,7 @@
 }
 
 .goals {
-	margin: 50px 0px 60px 0px;
+  margin: 50px 0px 60px 0px;
 }
 .goals__body {
   display: flex;
@@ -43,9 +44,33 @@
   max-width: 612px;
 }
 .goals__team {
+	max-width: 100%;
 }
 .goals__image {
+  max-width: 100%;
 }
 .footer {
   margin: 45px 0px 0px 0px;
+}
+
+@media (max-width: 1000px) {
+  .about-us__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .us-photo {
+    margin: 0px 0px 0px 0px;
+  }
+  .about-us__text {
+    margin: 0 0 15px 0;
+  }
+  .goals__body {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+	.goals__image {
+		display: none;
+	}
 }

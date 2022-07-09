@@ -13,14 +13,13 @@
   font-family: "Arame";
   font-weight: 400;
   font-size: 36px;
-  line-height: 100%;
-  letter-spacing: 0.135em;
+  line-height: 120%;
   padding: 58px 0px 33px 0px;
 }
 .subtitle {
   font-weight: 600;
   font-size: 16px;
-  line-height: 75%;
+  line-height: 125%;
   letter-spacing: 0.135em;
   color: #ebebeb;
   text-transform: uppercase;
