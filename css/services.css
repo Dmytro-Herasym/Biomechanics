@@ -54,8 +54,12 @@
   border: 1px solid #626262;
   border-bottom: none;
   padding: 25px;
+	width: 100%;
+	max-width: 100%;
 }
 .bottom-name {
+	width: 100%;
+	max-width: 100%;
   font-weight: 400;
   font-size: 16px;
   line-height: 120%;
