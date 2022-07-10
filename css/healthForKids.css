@@ -31,3 +31,8 @@
 .review__subtitle-border-top {
 	border-top: 1px solid #626262;
 }
+@media (max-width: 400px) {
+	.about-title {
+		font-size: 25px;
+	}
+}
