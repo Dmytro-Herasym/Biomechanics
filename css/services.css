@@ -10,7 +10,7 @@
   margin: 0px 0px 50px 0px;
 }
 .row-top {
-  flex: 0 0 33.333%;
+  flex: 1 1 33.333%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,9 +22,7 @@
   max-width: 100%;
 }
 .top-name {
-  display: inline-block;
   font-weight: 400;
-  font-size: 16px;
   line-height: 120%;
   text-align: center;
   letter-spacing: 0.135em;
@@ -43,7 +41,7 @@
 .services__row-bottom {
   display: flex;
   justify-content: center;
-  margin: 20px 0px 0px 0px;
+  margin: 20px 0px 20px 0px;
   gap: 20px;
 }
 .row-bottom {
@@ -54,12 +52,12 @@
   border: 1px solid #626262;
   border-bottom: none;
   padding: 25px;
-	width: 100%;
-	max-width: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 .bottom-name {
-	width: 100%;
-	max-width: 100%;
+  width: 100%;
+  max-width: 100%;
   font-weight: 400;
   font-size: 16px;
   line-height: 120%;
@@ -71,18 +69,25 @@
   height: 100%;
 }
 .services__button {
-	margin: 0 auto!important;
+  text-align: center;
 }
 .bottom-name__link {
   color: #ffff;
 }
 
-
+.test {
+  text-align: center;
+}
 @media (max-width: 1670px) {
   .services__row-bottom {
     flex-wrap: wrap;
     flex: 1 1 50%;
   }
+}
+@media (max-width: 1280px) {
+	.services__row-top {
+		flex-wrap: wrap;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -104,7 +109,7 @@
   }
 }
 @media (max-width: 400px) {
-  .top-name {
+  .services__button-link {
     font-size: 12px;
   }
 }

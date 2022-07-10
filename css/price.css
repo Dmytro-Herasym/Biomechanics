@@ -10,3 +10,17 @@ table, tr, td {
   border: 1px solid #626262;
 	border-collapse: collapse;
 }
+.table-responsive {
+	overflow-x: auto;
+}
+
+@media (max-width: 1000px) {
+	td {
+		padding: 10px 15px;
+	}
+}
+@media (max-width: 400px) {
+	td {
+		padding: 10px 10px;
+	}
+}
