@@ -54,12 +54,6 @@ p {
 .menu__icon {
   display: none;
 }
-
-/* --------------------- */
-body._pc {
-}
-
-/* --------------------- */
 @media (max-width: 930px) {
   .header__logo {
     flex: 1 1 100%;
