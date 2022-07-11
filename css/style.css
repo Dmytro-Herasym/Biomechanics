@@ -76,8 +76,11 @@ h6 {
 /*--------------------*/
 body {
   font-family: Montserrat;
-  background-color: #111111 !important;
-  color: #ebebeb !important;
+  background-color: #111111;
+  color: #ebebeb;
+}
+body._lock {
+	overflow: hidden;
 }
 .wrapper {
   overflow: hidden;
@@ -100,9 +103,6 @@ body {
 }
 .header__logo {
   flex: 1 1 auto;
-}
-.menu__icon {
-  display: none;
 }
 .header__nav {
   flex: 1 0 auto;
@@ -134,6 +134,7 @@ p {
   margin: 0 0 10px 0;
 }
 .heroscreen {
+	padding: 42px 0px 0px 0px;
 }
 .heroscreen__body {
   display: flex;
@@ -476,20 +477,6 @@ p {
 @media (max-width: 1060px) {
   .header__info {
     display: none;
-  }
-}
-@media (max-width: 930px) {
-  .header__logo {
-    flex: 1 1 100%;
-  }
-  .nav__list {
-    flex-direction: column;
-  }
-  .nav__list li {
-    padding: 10px 0 10px 0;
-  }
-  .nav__item:not(:last-child) {
-    margin: 0;
   }
 }
 @media (max-width: 770px) {
