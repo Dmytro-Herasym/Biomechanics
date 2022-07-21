@@ -37,6 +37,7 @@
 }
 .nav__item a {
   color: #ebebeb;
+	display: block;
 }
 .header__info {
   font-weight: 300;
